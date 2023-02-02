@@ -31,7 +31,7 @@ help:
 	@printf 'Run $(bold)make run$(sgr0) to run the container\n'
 	@printf '\n'
 	@printf '\n'
-	@printf 'Inside the container, the following commands are useful:\n'
+	@printf 'Inside the container, the following commands are needed for use:\n'
 	@printf '\n'
 	@printf 'python scripts/preload_models.py # select models to use and download\n'
 	@printf 'python scripts/invoke.py --web # start the web ui\n'
